@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    border: none; outline: none;
+}
+body{
+    background-color: #262A30;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Box{
+    width: 30%;
+    /* height: 20%; */
+    max-height: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+h4{
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+input{
+    padding: 10px 20px;
+    border: 1px solid rgb(128, 128, 128);
+    width: 90%;
+    border-radius: 5px;
+}
+.image img{
+    width: 100%;
+    /* height: 180px; */
+    margin: 0 auto;
+}
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #262A30;
+    color: white;
+    width: 90%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:778px) {
+    .Box{
+        width: 80%;
+    }
+}
